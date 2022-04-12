@@ -36,6 +36,6 @@ def get_word_of_the_day(day):
     # now that the list is accessed, just need to randomize which item in the list to get
     return random.choice(dict_words.get(get_letter))
 
-
+# test cases here
 if __name__ == '__main__':
     print(get_word_of_the_day(12))
